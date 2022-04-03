@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background: #acb6e5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
 }
 
 .App-logo {
@@ -35,4 +40,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+.search{
+  width: 30rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border: none;
+  padding: 5px;
+  font-size: 14px;
+}
+.userContainer{
+  padding: 10px;
 }
